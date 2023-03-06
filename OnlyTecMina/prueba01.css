@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00b3ba, #00f9e1);
+}
+.cuadro{
+    margin: 50px auto;
+    width: 600px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+p.titulo{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #e0e279;
+    text-align: center;
+}
+div.contenedor{
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #07d166;
+    padding: 15px;
+    color: #0e6064;
+    text-align: center;
+}
+div.contenedor01{
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    padding: 0;
+    color: #0e6064;
+    text-align: center;
+}
+div.contenedor:hover{/*Cuando pase el puntero se mostrara el contenido oculto*/
+    background-color: #0e6064;
+    color: #fffbb4;
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color: #06dbca;
+    color: #fffbb4;
+    padding: 15px;
+}
+p.boton{
+    background-color: #61ae0c;
+    border: none;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
